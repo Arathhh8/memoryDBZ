@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Are you ready?"
+            android:textColor="#FF6F00"
+            android:textSize="25sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="#F57F17"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:gravity="top"
+            android:textColorHint="#F57F17"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkEasy"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Easy mode"
+            android:gravity="top"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/checkHard"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Hard mode (20 attempts maximum)"
+            android:gravity="top"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Play"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:backgroundTint="#FF8F00"
+            android:onClick="GameActivity"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

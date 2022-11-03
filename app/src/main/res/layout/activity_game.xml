@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dragon_ball_logo"
+    tools:context=".GameActivity"
+    android:weightSum="6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/etDatoRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player: "
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/jiren1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/majinboo1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/freeza1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/goku1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/vegeta1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/goku2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/piccolo1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/majinboo2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/gohan1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/jiren2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/gohan2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/freeza2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/numero171"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/vegeta2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/numero172"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+        <ImageButton
+            android:id="@+id/piccolo2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/dragon_ball3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trys: "
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/tvTrys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Found Pairs: "
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/tvPairFound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0: "
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
